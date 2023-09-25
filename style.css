@@ -8,11 +8,26 @@ a {
   text-decoration: none;
   color: currentColor;
 }
+
+img {
+  width: 100%;
+}
+
+:root {
+  --blue:#2C3E50;
+  --green:#1ABC9C;
+  --light-red:#BA4B63;
+  --azure:#1EA4B6;
+  --light-black:#140F0F;
+  --sea:#1C83C1;
+  --dark-blue:#0E38B5;
+  --light-brown:#CCB2A3;
+  --light-blue:#3A546D;
+}
 /*******************************HEADER***********************************/
 
 header {
-  background-color: #2C3E50;
-  text-transform: uppercase;
+  background-color: var(--blue);
   padding: 16px 0;
 }
 
@@ -24,3 +39,16 @@ header .col-auto .icon {
   color:#5F676F;
 }
 
+/*******************************************HERO********************************/
+
+.hero {
+  background-color: var(--green);
+}
+
+.hero .hero-card figure {
+  max-width: 250px;
+}
+
+.hero .card-description {
+  font-size: 20px;
+}
