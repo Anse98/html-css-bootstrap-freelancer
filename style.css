@@ -52,3 +52,9 @@ header .col-auto .icon {
 .hero .card-description {
   font-size: 20px;
 }
+
+/**********************************************ABOUT****************************/
+
+.about {
+  background-color: #1ABC9C;
+}
