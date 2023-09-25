@@ -58,3 +58,13 @@ header .col-auto .icon {
 .about {
   background-color: #1ABC9C;
 }
+
+/******************************************CONTACT******************************/
+
+.contact form :is(input, textarea) {
+  border: none;
+}
+
+.contact .button a {
+  background-color: #1ABC9C;
+}
