@@ -1,0 +1,26 @@
+
+/***************************************REGOLE GENERALI***************/
+ul, ol, menu {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+/*******************************HEADER***********************************/
+
+header {
+  background-color: #2C3E50;
+  text-transform: uppercase;
+  padding: 16px 0;
+}
+
+header .header-title {
+  font-size: 24px;
+}
+
+header .col-auto .icon {
+  color:#5F676F;
+}
+
