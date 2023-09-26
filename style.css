@@ -70,6 +70,20 @@ header .col-auto .icon {
   font-size: 20px;
 }
 
+.hero .card-description ul li:not(:last-child) {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+
+.hero .card-description ul li:not(:last-child)::after {
+  content: "";
+  width: 10px;
+  height: 2px;
+  background-color: currentColor;
+  display: block;
+}
+
 /**********************************************ABOUT****************************/
 
 .about {
