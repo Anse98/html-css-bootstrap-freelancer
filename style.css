@@ -68,3 +68,27 @@ header .col-auto .icon {
 .contact .button a {
   background-color: #1ABC9C;
 }
+
+/************************************FOOTER*************************************/
+footer .informations {
+  background-color:#3A546D;
+}
+
+footer .socials i {
+  margin-right: 10px;
+  border: solid 1px currentColor;
+  border-radius: 50%;
+  padding: 8px;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 1.4rem;
+}
+
+footer .freelancer-text span {
+  color: #1ABC9C;
+}
+footer .copyright {
+  background-color:#2C3E50;
+}
+
