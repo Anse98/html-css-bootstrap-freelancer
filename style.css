@@ -24,6 +24,23 @@ img {
   --light-brown:#CCB2A3;
   --light-blue:#3A546D;
 }
+
+.star {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.star::before, .star::after {
+  content: "";
+  width: 64px;
+  height: 3px;
+  background-color: currentColor;
+  border-radius: 10px;
+  display: block;
+}
+
 /*******************************HEADER***********************************/
 
 header {
